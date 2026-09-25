@@ -6,8 +6,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: #060606;
-    color: #fff;
+    background-color: #f144bd;
+    color: #740136;
     padding: 20px;
     min-height: 100vh;
 }
@@ -25,17 +25,17 @@ body{
 .sidebar{
     flex: 1;
     min-width: 250px;
-    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    background: linear-gradient(135deg, #f78fc4, #f568ba);
     border-radius: 16px;
     padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    box-shadow: 0 15px 25px rgba(236, 72, 153, 0.3);
+    box-shadow: 0 15px 25px rgba(243, 50, 146, 0.3);
 }
 
 .menu-item{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 111, 217, 0.1);
     padding: 12px 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -45,4 +45,12 @@ body{
 .menu-item:hover{
     background-color: rgba(255, 255, 255, 0.4);
     transform: translateX(5px);
+}
+
+.main-content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+  
 }

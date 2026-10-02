@@ -54,3 +54,47 @@ body{
     gap: 20;
   
 }
+
+/*SEÇÃO DE ESTATÍSTICAS (CAIXA EM LINHA)*/
+.stat-row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-box{
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 25px rgba(243, 50, 146, 0.3);
+    flex-direction: column;
+    color: #fff;
+    gap: 8px;
+    display: flex;
+}
+
+.stat-box h3{ font-size: 14px; opacity: 0.9; text-transform: uppercase;}
+.stat-box p{ font-size: 26px; font-weight: bold; }
+
+.stat-1{ background: linear-gradient(135deg, #f78fc4, #f568ba); }
+.stat-2{ background: linear-gradient(135deg, #f568ba, #f144bd); }
+.stat-3{ background: linear-gradient(135deg, #f144bd, #e91e63); }
+
+.grid-row{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-box{
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border: 12px solid rgba(255, 111, 217, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 15px 25px rgba(243, 50, 146, 0.3);
+    background: #fff;
+    gap: 15px;
+    flex-direction: column;
+}

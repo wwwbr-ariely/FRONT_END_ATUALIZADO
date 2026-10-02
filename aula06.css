@@ -98,3 +98,29 @@ body{
     gap: 15px;
     flex-direction: column;
 }
+
+.content-box h2{
+    font-size: 18px;
+    color: #740136;
+    border-bottom: 1px solid rgba(243, 50, 146, 0.3);
+    padding-bottom: 10px;
+}
+
+/*MINI CAIXAS INTERNAS (GRID FLEXIVEL)*/
+.inner-boxes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mini-box{
+    flex: 1;
+    min-width: 80px;
+    padding: 15px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f78fc4, #f568ba);
+    color: #c38a8a;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgba(255, 111, 217, 0.1);
+}
